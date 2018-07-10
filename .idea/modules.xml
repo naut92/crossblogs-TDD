@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/crossblogs-java-se.iml" filepath="$PROJECT_DIR$/crossblogs-java-se.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crossblogs-java-se_main.iml" filepath="$PROJECT_DIR$/.idea/modules/crossblogs-java-se_main.iml" group="crossblogs-java-se" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crossblogs-java-se_test.iml" filepath="$PROJECT_DIR$/.idea/modules/crossblogs-java-se_test.iml" group="crossblogs-java-se" />
+    </modules>
+  </component>
+</project>
