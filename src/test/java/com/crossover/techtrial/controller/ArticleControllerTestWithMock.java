@@ -24,7 +24,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class ArticleControllerTestwWithMock {
+public class ArticleControllerTestWithMock {
 
     @Mock
     private ArticleService articleService;
@@ -44,9 +44,6 @@ public class ArticleControllerTestwWithMock {
 
     @Test
     public void createArticle() {
-        Model model = new ExtendedModelMap();
-        ModelMap modelMap = new ExtendedModelMap();
-        ModelAndView modelAndView = new ModelAndView();
         Article article = new Article();
         assertThat(controller.createArticle(article), equalTo(""));
         //assertThat(model.asMap(), hasEntry("articles", articles));
